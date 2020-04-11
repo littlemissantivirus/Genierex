@@ -12,7 +12,6 @@ class Genierex(commands.Bot):
         self.config: dict = json.load(open('data/configs/config.json'))
 
         self.load_extensions()
-        self.run(self.config['token'])
     
     def load_extensions(self):
         extensions = jishaku.modules.resolve_extensions(self, 'cogs.*')
