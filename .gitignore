@@ -143,3 +143,4 @@ cython_debug/
 # Project files that shouldn't be done
 cogs/admin.py
 data/configs/
+logs/
